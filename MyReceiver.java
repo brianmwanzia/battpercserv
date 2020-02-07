@@ -15,7 +15,7 @@ public class MyReceiver extends BroadcastReceiver {
             context.startForegroundService(MyIntent);
         }else {
             context.startService(MyIntent);
-        }
+        } 
 
     }
 }
